@@ -1,0 +1,526 @@
+<!-- الصفحة الرئيسية -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="message.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <a href="#" onclick="showPopup(1)"> <img id="photo" src="Square.jpg" alt="الصورة الشخصية"></a>
+            </td>
+            <td>
+                <img id="logo" src="newlogo.png" alt="">
+                <br>
+                <b>
+                    طلب الحصول على البطاقة الشخصية<br>
+                    <a href="#" onclick="showPopup(2)">
+                        <i class="bi bi-question-circle"></i>
+                    </a>...............نوع الطلب
+                </b>
+            </td>
+            <td>
+                <b>
+                    المملكة الأردنية الهاشمية
+                    وزارة الداخلية
+                </b>
+                <br>
+                دائرة الأحوال المدنية والجوازات<br>
+                <b>
+                    <a href="#" onclick="showPopup(3)">
+                        <i class="bi bi-question-circle"></i>
+                    </a> ....... مكتب أحوال وجوازات
+                </b>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td id="nationalnumber">
+                <a href="#" onclick="showPopup(4)"><i class="bi bi-question-circle"></i></a>
+            </td>
+            <th id="setting">
+                الرقم الوطني
+            </th>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th id="fullname" colspan="4">
+                الاسم الكامل
+            </th>
+        </tr>
+        <tr>
+            <th class="title">
+                العائلة
+            </th>
+            <th class="title">
+                الجد
+            </th>
+            <th class="title">
+                الأب
+            </th>
+            <th class="title">
+                الأول
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(5)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(6)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(7)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(8)"><i class="bi bi-question-circle"></i></a>
+            </th>
+        </tr>
+        <tr>
+            <th class="title">
+                Family
+            </th>
+            <th class="title">
+                Grand father
+            </th>
+            <th class="title">
+                Father
+            </th>
+            <th class="title">
+                First
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext" id="nulltext">
+                <a href="#" onclick="showPopup(9)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(10)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(11)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(12)"><i class="bi bi-question-circle"></i></a>
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(13)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th class="title">
+                تاريخ الولادة
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(14)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th class="title">
+                مكان الولادة
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(15)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th class="title">
+                فصيلة الدم
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(16)"><i class="bi bi-question-circle"></i></a>
+            </th>
+
+            <th class="title">
+                الجنس
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(17)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th class="title">
+                اسم الأم باللغة الإنجليزية
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(18)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th class="title">
+                اسم الأم باللغة العربية
+            </th>
+        </tr>
+    </table>
+    <table>
+        <tr id="setting">
+            <th class="title" colspan="4">
+                العنوان المصرح به استنادًا للمادة (56) من قانون الأحوال المدنية رقم (9) لسنة 2001 وتعديلاته </th>
+        </tr>
+        <tr>
+            <th class="title">
+                اسم الشارع/ رقم المبنى
+            </th>
+            <th class="title">
+                الحي/ التجمع السكاني
+            </th>
+            <th class="title">
+                المحافظة/ اللواء/ القضاء
+            </th>
+            <th class="title">
+                الدولة
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(19)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(20)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(21)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext">
+                <a href="#" onclick="showPopup(22)"><i class="bi bi-question-circle"></i></a>
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext" colspan="3">
+                <a href="#" onclick="showPopup(23)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th class="title">
+                اقرب معلم للسكن
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext" colspan="3">
+                <a href="#" onclick="showPopup(24)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th class="title">
+                البريد الإلكتروني
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext" colspan="2">
+                <a href="#" onclick="showPopup(25)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th id="nulltext" colspan="1">
+                <a href="#" onclick="showPopup(26)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th class="title">
+                رقم الهاتف
+            </th>
+        </tr>
+        <tr class="title">
+            <th colspan="4">
+                إقرار وتعهد
+            </th>
+        </tr>
+        <tr id="name">
+            <th colspan="4">
+                أقر أنا الموقع أدناه بأن البيانات التي تم التصريح بها من قبلي صحيحة وتحت طائلة المسؤولية
+                القانونية،
+                <br>
+                <a href="#" onclick="showPopup(27)"><i class="bi bi-question-circle"></i></a>
+                ................... وأشهد أن الصورة المرفقة في الطلب تعود لـ
+            </th>
+        </tr>
+        <tr>
+            <th id="nulltext" colspan="3">
+                <a href="#" onclick="showPopup(28)"><i class="bi bi-question-circle"></i></a>
+            </th>
+            <th>
+                اسم وتوقيع مقدم الطلب
+            </th>
+        </tr>
+    </table>
+    <table>
+        <tr class="title">
+            <th id="setting" colspan="4">
+                <a href="#" onclick="showPopup(29)"><i class="bi bi-question-circle"></i></a>
+                لإستعمال الداائرة الرسمي
+            </th>
+        </tr>
+        <tr>
+            <th id="setting" colspan="4">
+                .................................................................................................................<br><br>
+                .................................................................................................................<br><br>
+                .................................................................................................................<br><br>
+                .................................................................................................................<br><br>
+            </th>
+        </tr>
+        <tr id="finalrow">
+            <th>
+                الرسوم المستوفاة<br>
+                القسيمة المالية
+            </th>
+            <th>
+                موظف الأرشفة
+            </th>
+            <th>
+                موظف البصمة
+            </th>
+            <th>
+                موظف القبول والقزحية
+            </th>
+        </tr>
+        <tr id="name">
+            <th id="setting" colspan="4">
+                اسم وتوقيع وختم أمين المكتب
+                <br>
+                <br>
+            </th>
+        </tr>
+        <tr id="nulltext">
+            <th id="setting" colspan="4">
+                CIVIL-CAJ-12
+            </th>
+        </tr>
+    </table>
+</body>
+
+<!-- Message 1 -->
+<div class="overlay" id="overlay1"></div>
+<div class="popup" id="popup1">
+    <h2> استعلام عن صورة</h2>
+    <img id="personalphoto" src="personal.jpg" alt="صورة">
+    <p>صورة شخصية رسمة بخلفية بيضاء.</p>
+    <button onclick="hidePopup(1)">إغلاق</button>
+</div>
+
+<!-- Message 2 -->
+<div class="overlay" id="overlay2"></div>
+<div class="popup" id="popup2">
+    <h2>استعلام عن نوع الطلب</h2>
+    <p>نوع الطلب (لأول مرة/ تجديد/ إصدار بدل تالف/ إصدار بدل فاقد)</p>
+    <button onclick="hidePopup(2)">إغلاق</button>
+</div>
+
+<!-- Message 3 -->
+<div class="overlay" id="overlay3"></div>
+<div class="popup" id="popup3">
+    <h2>....استعلام عن مكتب أحوال وجوازات </h2>
+    <p>اسم الفرع الذي سوف يتم به تقديم الطلب</p>
+    <button onclick="hidePopup(3)">إغلاق</button>
+</div>
+
+<!-- Message 4 -->
+<div class="overlay" id="overlay4"></div>
+<div class="popup" id="popup4">
+    <h2>استعلام عن الرقم الوطني</h2>
+    <img id="imagesetting" src="Image_Message/nationalnumber.png" alt="صورة">
+    <p>هنا الرقم الوطني على شهادة الميلاد</p>
+    <button onclick="hidePopup(4)">إغلاق</button>
+</div>
+
+<!-- Message 5 -->
+<div class="overlay" id="overlay5"></div>
+<div class="popup" id="popup5">
+    <h2> استعلام عن اسم العائلة</h2>
+    <img id="imagesetting" src="Image_Message/familyname.png" alt="صورة">
+    <p>هنا اسم العائلة في شهادة الميلاد</p>
+    <button onclick="hidePopup(5)">إغلاق</button>
+</div>
+
+<!-- Message 6 -->
+<div class="overlay" id="overlay6"></div>
+<div class="popup" id="popup6">
+    <h2> استعلام عن اسم الجد</h2>
+    <img id="imagesetting" src="Image_Message/grandfathername.png" alt="صورة">
+    <p>هنا اسم الجد في شهادة الميلاد</p>
+    <button onclick="hidePopup(6)">إغلاق</button>
+</div>
+
+<!-- Message 7 -->
+<div class="overlay" id="overlay7"></div>
+<div class="popup" id="popup7">
+    <h2> استعلام عن اسم الأب</h2>
+    <img id="imagesetting" src="Image_Message/fathername.png" alt="صورة">
+    <p>هنا اسم الأب في شهادة الميلاد</p>
+    <button onclick="hidePopup(7)">إغلاق</button>
+</div>
+<!-- Message 8 -->
+<div class="overlay" id="overlay8"></div>
+<div class="popup" id="popup8">
+    <h2> استعلام عن الاسم الأول</h2>
+    <img id="imagesetting" src="Image_Message/name.png" alt="صورة">
+    <p>هنا الاسم الأول في شهادة الميلاد</p>
+    <button onclick="hidePopup(8)">إغلاق</button>
+</div>
+
+<!-- Message 9 -->
+<div class="overlay" id="overlay9"></div>
+<div class="popup" id="popup9">
+    <h2>(Family)استعلام عن </h2>
+    <p>اكتب اسم العائلة باللغة الإنجليزية</p>
+    <button onclick="hidePopup(9)">إغلاق</button>
+</div>
+
+<!-- Message 10 -->
+<div class="overlay" id="overlay10"></div>
+<div class="popup" id="popup10">
+    <h2>(Grand Father)استعلام عن </h2>
+    <p>اكتب اسم جد باللغة الإنجليزية</p>
+    <button onclick="hidePopup(10)">إغلاق</button>
+</div>
+
+<!-- Message 11 -->
+<div class="overlay" id="overlay11"></div>
+<div class="popup" id="popup11">
+    <h2>(Father)استعلام عن </h2>
+    <p>اكتب اسم الأب باللغة الإنجليزية</p>
+    <button onclick="hidePopup(11)">إغلاق</button>
+</div>
+
+<!-- Message 12 -->
+<div class="overlay" id="overlay12"></div>
+<div class="popup" id="popup12">
+    <h2>(First)استعلام عن </h2>
+    <p>اكتب اسمك الأول باللغة الإنجليزية</p>
+    <button onclick="hidePopup(12)">إغلاق</button>
+</div>
+
+<!-- Message 13 -->
+<div class="overlay" id="overlay13"></div>
+<div class="popup" id="popup13">
+    <h2> استعلام عن تاريخ الولادة</h2>
+    <img id="imagesetting" src="Image_Message/birthdate.png" alt="صورة">
+    <p>هنا تاريخ الولادة في شهادة الميلاد</p>
+    <button onclick="hidePopup(13)">إغلاق</button>
+</div>
+
+<!-- Message 14 -->
+<div class="overlay" id="overlay14"></div>
+<div class="popup" id="popup14">
+    <h2> استعلام عن مكان الولادة</h2>
+    <img id="imagesetting" src="Image_Message/birthplace.png" alt="صورة">
+    <p>هنا مكان الولادة في شهادة الميلاد</p>
+    <button onclick="hidePopup(14)">إغلاق</button>
+</div>
+
+<!-- Message 15 -->
+<div class="overlay" id="overlay15"></div>
+<div class="popup" id="popup15">
+    <h2>استعلام عن فصيلة الدم </h2>
+    <p>اكتب فصيلة الدم</p>
+    <button onclick="hidePopup(15)">إغلاق</button>
+</div>
+
+<!-- Message 16 -->
+<div class="overlay" id="overlay16"></div>
+<div class="popup" id="popup16">
+    <h2> استعلام عن الجنس</h2>
+    <img id="imagesetting" src="Image_Message/gender.png" alt="صورة">
+    <p>هنا الجنس في شهادة الميلاد</p>
+    <button onclick="hidePopup(16)">إغلاق</button>
+</div>
+
+<!-- Message 17 -->
+<div class="overlay" id="overlay17"></div>
+<div class="popup" id="popup17">
+    <h2>استعلام عن اسم الأم باللغة الإنجليزية </h2>
+    <p>اكتب اسم الأم باللغة الإنجليزية</p>
+    <button onclick="hidePopup(17)">إغلاق</button>
+</div>
+
+<!-- Message 18 -->
+<div class="overlay" id="overlay18"></div>
+<div class="popup" id="popup18">
+    <h2>استعلام عن اسم الأم باللغة العربية </h2>
+    <img id="imagesetting" src="Image_Message/mothername.png" alt="صورة">
+    <p>هنا اسم الأم باللغة العربية في شهادة الميلاد</p>
+    <button onclick="hidePopup(18)">إغلاق</button>
+</div>
+
+<!-- Message 19 -->
+<div class="overlay" id="overlay19"></div>
+<div class="popup" id="popup19">
+    <h2>استعلام عن اسم الشارع/ رقم المبنى </h2>
+    <p>اكتب اسم الشارع أو رقم المبنى</p>
+    <button onclick="hidePopup(19)">إغلاق</button>
+</div>
+
+<!-- Message 20 -->
+<div class="overlay" id="overlay20"></div>
+<div class="popup" id="popup20">
+    <h2>استعلام عن الحي/ التجمع السكاني </h2>
+    <p>اكتب اسم الحي أواسم التجمع السكاني</p>
+    <button onclick="hidePopup(20)">إغلاق</button>
+</div>
+
+<!-- Message 21 -->
+<div class="overlay" id="overlay21"></div>
+<div class="popup" id="popup21">
+    <h2>استعلام عن المحافظة/ اللواء/ القضاء </h2>
+    <p>اكتب اسم المحافظة أو اسم اللواء أو اسم القضاء</p>
+    <button onclick="hidePopup(21)">إغلاق</button>
+</div>
+
+<!-- Message 22 -->
+<div class="overlay" id="overlay22"></div>
+<div class="popup" id="popup22">
+    <h2>استعلام عن الدولة </h2>
+    <p>اكتب اسم الدولة</p>
+    <button onclick="hidePopup(22)">إغلاق</button>
+</div>
+
+<!-- Message 23 -->
+<div class="overlay" id="overlay23"></div>
+<div class="popup" id="popup23">
+    <h2>استعلام اقرب مكان للسكن </h2>
+    <p>اكتب اسم اقرب مكان للسكن مثل(جامع، محل تجاري، مدرسة....)</p>
+    <button onclick="hidePopup(23)">إغلاق</button>
+</div>
+
+<!-- Message 24 -->
+<div class="overlay" id="overlay24"></div>
+<div class="popup" id="popup24">
+    <h2>استعلام عن البريد الإلكتروني </h2>
+    <p>اكتب البريد الإلكتروني</p>
+    <button onclick="hidePopup(24)">إغلاق</button>
+</div>
+
+<!-- Message 25 -->
+<div class="overlay" id="overlay25"></div>
+<div class="popup" id="popup25">
+    <h2>استعلام عن رقم الهاتف </h2>
+    <p>اكتب رقم الهاتف</p>
+    <button onclick="hidePopup(25)">إغلاق</button>
+</div>
+
+<!-- Message 26 -->
+<div class="overlay" id="overlay26"></div>
+<div class="popup" id="popup26">
+    <h2>استعلام عن رقم الهاتف 2 </h2>
+    <p>اكتب رقم هاتف آخر</p>
+    <button onclick="hidePopup(26)">إغلاق</button>
+</div>
+
+<!-- Message 27 -->
+<div class="overlay" id="overlay27"></div>
+<div class="popup" id="popup27">
+    <h2>استعلام عن الصورة المرفقة في الطلب </h2>
+    <img id="imagesetting" src="Image_Message/name.png" alt="صورة">
+    <p>هنا اسم صاحب الصورة المرفقة</p>
+    <button onclick="hidePopup(27)">إغلاق</button>
+</div>
+
+<!-- Message 28 -->
+<div class="overlay" id="overlay28"></div>
+<div class="popup" id="popup28">
+    <h2> استعلام عن اسم مقدم الطلب</h2>
+    <img id="imagesetting" src="Image_Message/name.png" alt="صورة">
+    <p>هنا اسم مقدم الطلب</p>
+    <button onclick="hidePopup(28)">إغلاق</button>
+</div>
+
+<!-- Message 29 -->
+<div class="overlay" id="overlay29"></div>
+<div class="popup" id="popup29">
+    <h2>استعلام لاستعمال الدائرة الرسمي </h2>
+    <p id="worrng">احذر لا يتم تعبئته الا من الموظف</p>
+    <button onclick="hidePopup(29)">إغلاق</button>
+</div>
+</html>
